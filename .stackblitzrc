@@ -1,0 +1,3 @@
+{
+  "startCommand": "npm run install_deps && npm run dev"
+}
