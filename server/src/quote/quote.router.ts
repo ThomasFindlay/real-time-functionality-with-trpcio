@@ -48,4 +48,4 @@ export const quoteRouter = router({
 setInterval(async () => {
   const quote = await fetchRandomQuote();
   quoteEventEmitter.emit("on-random-quote", quote);
-}, 5000);
+}, 3000);
